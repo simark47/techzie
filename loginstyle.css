@@ -1,0 +1,95 @@
+body{
+    background-image: linear-gradient(300deg, rgba(85, 232, 205, 0.896), rgb(229, 83, 83), pink);
+
+    background-size:cover ;
+}
+#login{
+    align-self: center;
+    text-align: center;
+    background-color: rgba(67, 64, 64, 0.641);
+    float: left;
+    width:30%;
+    margin-left: 300px;
+    margin-right: 50px;
+    margin-top: 10px;
+    height: 400px;
+    padding: 30px;
+    margin-bottom: 10px;
+    border:1px dotted white;
+    border-radius: 40px;
+    font-weight: 500;
+    font-family: cursive;
+    color: beige;
+    box-sizing: content-box;
+}
+#login:hover{
+    transform: scale(1.1);
+}
+#submit:hover{
+    transform: scale(1.1);
+}
+
+#button:hover{
+    background-color:rgba(202, 212, 145, 0.641);
+    
+}
+#button:link{
+    background-color:rgba(219, 146, 195, 0.641);
+    
+}
+button:visited{
+    background-color:rgba(236, 18, 25, 0.641);
+    border-radius: 50px;
+}
+#ls{
+    border:1px dotted white;
+   background-color: rgba(67, 64, 64, 0.641);
+   text-align: center;
+   margin-left: 300px;
+   margin-right: 300px;
+   font-family: cursive;
+   color: beige;
+   border-radius: 40px;
+}#submit{
+    text-align: center;
+    align-self: center;
+    background-color: rgba(67, 64, 64, 0.641);
+    float: left;
+    width:30%;
+    margin: 0px;
+    margin-top: 10px;
+    height:460px;
+    border:1px dotted white;
+   border-radius: 10px;
+   font-family: cursive;
+   color: beige;
+   border-radius: 40px;
+   
+}
+
+.margin{
+    text-align: center;
+
+padding: 7px;
+}
+input{
+    background-color: transparent;
+   color: white;
+    border: 1px solid white;
+    
+}
+
+img{
+    border-radius: 40px; 
+}
+::placeholder {
+    color: white;
+  }
+
+  input:hover::placeholder {
+    color: black;
+    background-color: beige;
+  }
+  a{
+    color:#dfdfe2;
+  }
